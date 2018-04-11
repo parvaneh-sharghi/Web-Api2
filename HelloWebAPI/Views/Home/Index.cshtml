@@ -13,7 +13,7 @@
                     $.each(data, function (key, val) {
 
                         // Format the text to display.
-                        var str = val.Name + ': $' + val.Price;
+                        var str = val.Name + ': $' + val.Price + '  Category:' + val.Category;
 
                         // Add a list item for the product.
                         $('<li/>', { html: str })
