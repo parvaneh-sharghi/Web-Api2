@@ -10,7 +10,7 @@ namespace HelloWebAPI.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "Web Api 2";
 
             return View();
         }
